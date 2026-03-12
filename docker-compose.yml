@@ -145,6 +145,7 @@ services:
       KEYCLOAK_API_PASSWORD: ${KEYCLOAK_API_PASSWORD:-realmadmin}
       DEEPGRAM_API_KEY: ${DEEPGRAM_API_KEY}
       CARTESIA_API_KEY: ${CARTESIA_API_KEY}
+      ENABLE_TESTING_ENDPOINTS: "true"
     healthcheck:
       test:
         [

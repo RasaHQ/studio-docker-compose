@@ -203,7 +203,7 @@ services:
       - studio-network
 
   model-service:
-    image: ${RASA_PRO_IMAGE:-europe-west3-docker.pkg.dev/rasa-releases/rasa-pro/rasa-pro:3.16.0rc3}
+    image: ${RASA_PRO_IMAGE:-europe-west3-docker.pkg.dev/rasa-releases/rasa-pro/rasa-pro:3.16.0}
     container_name: model-service
     ports:
       - "5005:5005"

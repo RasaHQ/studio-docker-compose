@@ -123,7 +123,7 @@ services:
     ports:
       - "4000:4000"
     command: >
-      sh -c "yarn ts-node --transpile-only keycloak/config/index.ts && npx prisma migrate deploy && yarn ts-node --transpile-only server/index.ts"
+      sh -c "npx --no-install ts-node --transpile-only keycloak/config/index.ts && npx --no-install prisma migrate deploy && npx --no-install ts-node --transpile-only server/index.ts"
     environment:
       DB_HOST: database
       DB_USER: ${DB_USER:-studio}

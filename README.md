@@ -29,9 +29,6 @@ export STUDIO_IMAGE_PATH=your_custom_image_path
 export STUDIO_IMAGE_TAG=your_custom_tag
 export RASA_PRO_IMAGE=your_custom_rasa_pro_image  # Custom Rasa Pro image for model-service
 
-# Optional - for voice/audio features in the backend
-export DEEPGRAM_API_KEY=your_deepgram_key
-export CARTESIA_API_KEY=your_cartesia_key
 ```
 
 ## Running the Application
